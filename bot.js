@@ -28,7 +28,7 @@ client.on('ready', () => {
 });
 
 client.on('message' , async (message) => {
-       if(message.content.startsWith(prefix + "fort")) {
+       if(message.content.startsWith(prefix + "fortnite")) {
   const emoji = "1⃣"
 message.channel.send('**اضغط الاموجي للحصول على رتبه**')
 .then( msg => {
@@ -47,7 +47,7 @@ message.guild.member(message.author).addRole(role);
 });
 
 client.on('message' , async (message) => {
-       if(message.content.startsWith(prefix + "min")) {
+       if(message.content.startsWith(prefix + "minecraft")) {
   const emoji = "2⃣"
 message.channel.send('**اضغط الاموجي للحصول على رتبه**')
 .then( msg => {
@@ -67,7 +67,7 @@ message.guild.member(message.author).addRole(role);
 
 
 client.on('message' , async (message) => {
-       if(message.content.startsWith(prefix + "black")) {
+       if(message.content.startsWith(prefix + "blacksqaud")) {
   const emoji = "3⃣"
 message.channel.send('**اضغط الاموجي للحصول على رتبه**')
 .then( msg => {
@@ -107,7 +107,7 @@ message.guild.member(message.author).addRole(role);
 
 
 client.on('message' , async (message) => {
-       if(message.content.startsWith(prefix + "PUB")) {
+       if(message.content.startsWith(prefix + "pubg")) {
   const emoji = "5⃣"
 message.channel.send('**اضغط الاموجي للحصول على رتبه**')
 .then( msg => {
@@ -126,7 +126,7 @@ message.guild.member(message.author).addRole(role);
 });
 
 client.on('message' , async (message) => {
-       if(message.content.startsWith(prefix + "Brawl")) {
+       if(message.content.startsWith(prefix + "brawlhalla")) {
   const emoji = "6⃣"
 message.channel.send('**اضغط الاموجي للحصول على رتبه**')
 .then( msg => {
@@ -145,7 +145,7 @@ message.guild.member(message.author).addRole(role);
 });
 
 client.on('message' , async (message) => {
-       if(message.content.startsWith(prefix + "Arma")) {
+       if(message.content.startsWith(prefix + "arma3")) {
   const emoji = "7⃣"
 message.channel.send('**اضغط الاموجي للحصول على رتبه**')
 .then( msg => {
@@ -164,7 +164,7 @@ message.guild.member(message.author).addRole(role);
 });
 
 client.on('message' , async (message) => {
-       if(message.content.startsWith(prefix + "over")) {
+       if(message.content.startsWith(prefix + "overwatch")) {
   const emoji = "8⃣"
 message.channel.send('**اضغط الاموجي للحصول على رتبه**')
 .then( msg => {
@@ -183,7 +183,7 @@ message.guild.member(message.author).addRole(role);
 });
 
 client.on('message' , async (message) => {
-       if(message.content.startsWith(prefix + "GTA")) {
+       if(message.content.startsWith(prefix + "GTA V")) {
   const emoji = "9⃣"
 message.channel.send('**اضغط الاموجي للحصول على رتبه**')
 .then( msg => {
