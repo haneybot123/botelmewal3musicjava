@@ -25,12 +25,11 @@ client.on('ready', () => {
   console.log('╚[════════════]╝')
   console.log('')
   console.log('')
-  client.user.setStatus("DND")
 });
 
 client.on('message' , async (message) => {
        if(message.content.startsWith(prefix + "fort")) {
-  const emoji = "1⃣"
+  const emoji = "m⃣"
 message.channel.send('**اضغط الاموجي للحصول على رتبه**')
 .then( msg => {
 msg.react(emoji).then( r => {
