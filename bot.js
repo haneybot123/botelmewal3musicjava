@@ -30,7 +30,7 @@ client.on('ready', () => {
 client.on('message' , async (message) => {
        if(message.content.startsWith(prefix + "fortnite")) {
   const emoji = "1⃣"
-message.channel.send('**اضغط الاموجي للحصول على رتبه**')
+message.channel.send('**fortnite اللحصول علي رتبة *')
 .then( msg => {
 msg.react(emoji).then( r => {
   const mis = (reaction, user) => reaction.emoji.name === emoji && user.id === message.author.id;
@@ -49,7 +49,7 @@ message.guild.member(message.author).addRole(role);
 client.on('message' , async (message) => {
        if(message.content.startsWith(prefix + "minecraft")) {
   const emoji = "2⃣"
-message.channel.send('**اضغط الاموجي للحصول على رتبه**')
+message.channel.send('**minecraft اللحصول علي رتبة **')
 .then( msg => {
 msg.react(emoji).then( r => {
   const mis = (reaction, user) => reaction.emoji.name === emoji && user.id === message.author.id;
@@ -69,7 +69,7 @@ message.guild.member(message.author).addRole(role);
 client.on('message' , async (message) => {
        if(message.content.startsWith(prefix + "blacksqaud")) {
   const emoji = "3⃣"
-message.channel.send('**اضغط الاموجي للحصول على رتبه**')
+message.channel.send('**blacksqaud اللحصول علي رتبة **')
 .then( msg => {
 msg.react(emoji).then( r => {
   const mis = (reaction, user) => reaction.emoji.name === emoji && user.id === message.author.id;
@@ -88,7 +88,7 @@ message.guild.member(message.author).addRole(role);
 client.on('message' , async (message) => {
        if(message.content.startsWith(prefix + "CS:GO")) {
   const emoji = "4⃣"
-message.channel.send('**اضغط الاموجي للحصول على رتبه**')
+message.channel.send('**CS:GO اللحصول علي رتبة **')
 .then( msg => {
 msg.react(emoji).then( r => {
   const mis = (reaction, user) => reaction.emoji.name === emoji && user.id === message.author.id;
@@ -109,7 +109,7 @@ message.guild.member(message.author).addRole(role);
 client.on('message' , async (message) => {
        if(message.content.startsWith(prefix + "pubg")) {
   const emoji = "5⃣"
-message.channel.send('**اضغط الاموجي للحصول على رتبه**')
+message.channel.send('**pubg اللحصول علي رتبة **')
 .then( msg => {
 msg.react(emoji).then( r => {
   const mis = (reaction, user) => reaction.emoji.name === emoji && user.id === message.author.id;
@@ -128,7 +128,7 @@ message.guild.member(message.author).addRole(role);
 client.on('message' , async (message) => {
        if(message.content.startsWith(prefix + "brawlhalla")) {
   const emoji = "6⃣"
-message.channel.send('**اضغط الاموجي للحصول على رتبه**')
+message.channel.send('**brawlhalla اللحصول علي رتبة **')
 .then( msg => {
 msg.react(emoji).then( r => {
   const mis = (reaction, user) => reaction.emoji.name === emoji && user.id === message.author.id;
@@ -147,7 +147,7 @@ message.guild.member(message.author).addRole(role);
 client.on('message' , async (message) => {
        if(message.content.startsWith(prefix + "arma3")) {
   const emoji = "7⃣"
-message.channel.send('**اضغط الاموجي للحصول على رتبه**')
+message.channel.send('**arma3 اللحصول علي رتبة **')
 .then( msg => {
 msg.react(emoji).then( r => {
   const mis = (reaction, user) => reaction.emoji.name === emoji && user.id === message.author.id;
@@ -166,7 +166,7 @@ message.guild.member(message.author).addRole(role);
 client.on('message' , async (message) => {
        if(message.content.startsWith(prefix + "overwatch")) {
   const emoji = "8⃣"
-message.channel.send('**اضغط الاموجي للحصول على رتبه**')
+message.channel.send('**overwatch اللحصول علي رتبة **')
 .then( msg => {
 msg.react(emoji).then( r => {
   const mis = (reaction, user) => reaction.emoji.name === emoji && user.id === message.author.id;
@@ -183,9 +183,9 @@ message.guild.member(message.author).addRole(role);
 });
 
 client.on('message' , async (message) => {
-       if(message.content.startsWith(prefix + "GTA V")) {
+       if(message.content.startsWith(prefix + "GTA V" )) {
   const emoji = "9⃣"
-message.channel.send('**اضغط الاموجي للحصول على رتبه**')
+message.channel.send('**GTA V اللحصول علي رتبة **')
 .then( msg => {
 msg.react(emoji).then( r => {
   const mis = (reaction, user) => reaction.emoji.name === emoji && user.id === message.author.id;
