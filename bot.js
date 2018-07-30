@@ -190,7 +190,7 @@ msg.react(emoji).then( r => {
   const swe = msg.createReactionCollector(mis, { time: 10000 });
   swe.on('collect', r => {
 
-let role = message.guild.roles.find("name", "GTA V");
+let role = message.guild.roles.find("name", "Overwatch");
 message.guild.member(message.author).addRole(role);
 
 });
@@ -209,7 +209,7 @@ msg.react(emoji).then( r => {
   const swe = msg.createReactionCollector(mis, { time: 10000 });
   swe.on('collect', r => {
 
-let role = message.guild.roles.find("name", "Overwatch");
+let role = message.guild.roles.find("name", "GTA V");
 message.guild.member(message.author).addRole(role);
 
 });
