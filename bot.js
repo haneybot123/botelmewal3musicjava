@@ -104,28 +104,11 @@ message.guild.member(message.author).addRole(role);
 }
 });
 
-client.on('message' , async (message) => {
-       if(message.content.startsWith(prefix + "Palad")) {
-  const emoji = "5⃣"
-message.channel.send('**اضغط الاموجي للحصول على رتبه**')
-.then( msg => {
-msg.react(emoji).then( r => {
-  const mis = (reaction, user) => reaction.emoji.name === emoji && user.id === message.author.id;
-  const swe = msg.createReactionCollector(mis, { time: 10000 });
-  swe.on('collect', r => {
 
-let role = message.guild.roles.find("name", "Paladins");
-message.guild.member(message.author).addRole(role);
-
-});
-});
-});
-}
-});
 
 client.on('message' , async (message) => {
        if(message.content.startsWith(prefix + "PUB")) {
-  const emoji = "6⃣"
+  const emoji = "5⃣"
 message.channel.send('**اضغط الاموجي للحصول على رتبه**')
 .then( msg => {
 msg.react(emoji).then( r => {
@@ -144,7 +127,7 @@ message.guild.member(message.author).addRole(role);
 
 client.on('message' , async (message) => {
        if(message.content.startsWith(prefix + "Brawl")) {
-  const emoji = "7⃣"
+  const emoji = "6⃣"
 message.channel.send('**اضغط الاموجي للحصول على رتبه**')
 .then( msg => {
 msg.react(emoji).then( r => {
@@ -163,7 +146,7 @@ message.guild.member(message.author).addRole(role);
 
 client.on('message' , async (message) => {
        if(message.content.startsWith(prefix + "Arma")) {
-  const emoji = "8⃣"
+  const emoji = "7⃣"
 message.channel.send('**اضغط الاموجي للحصول على رتبه**')
 .then( msg => {
 msg.react(emoji).then( r => {
@@ -181,8 +164,8 @@ message.guild.member(message.author).addRole(role);
 });
 
 client.on('message' , async (message) => {
-       if(message.content.startsWith(prefix + "Over")) {
-  const emoji = "9⃣"
+       if(message.content.startsWith(prefix + "over")) {
+  const emoji = "8⃣"
 message.channel.send('**اضغط الاموجي للحصول على رتبه**')
 .then( msg => {
 msg.react(emoji).then( r => {
@@ -201,7 +184,7 @@ message.guild.member(message.author).addRole(role);
 
 client.on('message' , async (message) => {
        if(message.content.startsWith(prefix + "GTA")) {
-  const emoji = "10⃣"
+  const emoji = "9⃣"
 message.channel.send('**اضغط الاموجي للحصول على رتبه**')
 .then( msg => {
 msg.react(emoji).then( r => {
