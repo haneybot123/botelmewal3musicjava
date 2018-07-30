@@ -145,27 +145,8 @@ message.guild.member(message.author).addRole(role);
 });
 
 client.on('message' , async (message) => {
-       if(message.content.startsWith(prefix + "arma3")) {
-  const emoji = "7⃣"
-message.channel.send('**arma3 اللحصول علي رتبة **')
-.then( msg => {
-msg.react(emoji).then( r => {
-  const mis = (reaction, user) => reaction.emoji.name === emoji && user.id === message.author.id;
-  const swe = msg.createReactionCollector(mis, { time: 10000 });
-  swe.on('collect', r => {
-
-let role = message.guild.roles.find("name", "Arma 3");
-message.guild.member(message.author).addRole(role);
-
-});
-});
-});
-}
-});
-
-client.on('message' , async (message) => {
        if(message.content.startsWith(prefix + "overwatch")) {
-  const emoji = "8⃣"
+  const emoji = "7⃣"
 message.channel.send('**overwatch اللحصول علي رتبة **')
 .then( msg => {
 msg.react(emoji).then( r => {
@@ -184,7 +165,7 @@ message.guild.member(message.author).addRole(role);
 
 client.on('message' , async (message) => {
        if(message.content.startsWith(prefix + "GTA V" )) {
-  const emoji = "9⃣"
+  const emoji = "8⃣"
 message.channel.send('**GTA V اللحصول علي رتبة **')
 .then( msg => {
 msg.react(emoji).then( r => {
