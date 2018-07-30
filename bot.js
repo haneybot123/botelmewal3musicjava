@@ -38,7 +38,7 @@ msg.react(emoji).then( r => {
   const swe = msg.createReactionCollector(mis, { time: 10000 });
   swe.on('collect', r => {
 
-let role = message.guild.roles.find("name", "✦ Fortnite");
+let role = message.guild.roles.find("name", "Fortnite");
 message.guild.member(message.author).addRole(role);
 
 });
@@ -57,7 +57,7 @@ msg.react(emoji).then( r => {
   const swe = msg.createReactionCollector(mis, { time: 10000 });
   swe.on('collect', r => {
 
-let role = message.guild.roles.find("name", "✦ Minecraft");
+let role = message.guild.roles.find("name", "Minecraft");
 message.guild.member(message.author).addRole(role);
 
 });
