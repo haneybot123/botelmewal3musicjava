@@ -30,7 +30,7 @@ client.on('ready', () => {
 client.on('message' , async (message) => {
        if(message.content.startsWith(prefix + "fortnite")) {
   const emoji = "1⃣"
-message.channel.send('**fortnite اللحصول علي رتبة *')
+message.channel.send('**fortnite اللحصول علي رتبة **')
 .then( msg => {
 msg.react(emoji).then( r => {
   const mis = (reaction, user) => reaction.emoji.name === emoji && user.id === message.author.id;
