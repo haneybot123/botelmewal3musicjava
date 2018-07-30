@@ -65,18 +65,17 @@ message.guild.member(message.author).addRole(role);
 }
 });
 
-
 client.on('message' , async (message) => {
-       if(message.content.startsWith(prefix + "blacksqaud")) {
+       if(message.content.startsWith(prefix + "overwatch")) {
   const emoji = "3⃣"
-message.channel.send('**blacksqaud اللحصول علي رتبة **')
+message.channel.send('**overwatch اللحصول علي رتبة **')
 .then( msg => {
 msg.react(emoji).then( r => {
   const mis = (reaction, user) => reaction.emoji.name === emoji && user.id === message.author.id;
   const swe = msg.createReactionCollector(mis, { time: 10000 });
   swe.on('collect', r => {
 
-let role = message.guild.roles.find("name", "Blacksquad");
+let role = message.guild.roles.find("name", "Overwatch");
 message.guild.member(message.author).addRole(role);
 
 });
@@ -86,16 +85,16 @@ message.guild.member(message.author).addRole(role);
 });
 
 client.on('message' , async (message) => {
-       if(message.content.startsWith(prefix + "CS:GO")) {
+       if(message.content.startsWith(prefix + "roblox")) {
   const emoji = "4⃣"
-message.channel.send('**CS:GO اللحصول علي رتبة **')
+message.channel.send('**Roblox اللحصول علي رتبة **')
 .then( msg => {
 msg.react(emoji).then( r => {
   const mis = (reaction, user) => reaction.emoji.name === emoji && user.id === message.author.id;
   const swe = msg.createReactionCollector(mis, { time: 10000 });
   swe.on('collect', r => {
 
-let role = message.guild.roles.find("name", "CS:GO");
+let role = message.guild.roles.find("name", "Roblox");
 message.guild.member(message.author).addRole(role);
 
 });
@@ -103,8 +102,6 @@ message.guild.member(message.author).addRole(role);
 });
 }
 });
-
-
 
 client.on('message' , async (message) => {
        if(message.content.startsWith(prefix + "pubg")) {
@@ -126,8 +123,46 @@ message.guild.member(message.author).addRole(role);
 });
 
 client.on('message' , async (message) => {
-       if(message.content.startsWith(prefix + "brawlhalla")) {
+       if(message.content.startsWith(prefix + "blacksqaud")) {
   const emoji = "6⃣"
+message.channel.send('**blacksqaud اللحصول علي رتبة **')
+.then( msg => {
+msg.react(emoji).then( r => {
+  const mis = (reaction, user) => reaction.emoji.name === emoji && user.id === message.author.id;
+  const swe = msg.createReactionCollector(mis, { time: 10000 });
+  swe.on('collect', r => {
+
+let role = message.guild.roles.find("name", "Blacksquad");
+message.guild.member(message.author).addRole(role);
+
+});
+});
+});
+}
+});
+
+client.on('message' , async (message) => {
+       if(message.content.startsWith(prefix + "CS:GO")) {
+  const emoji = "7⃣"
+message.channel.send('**CS:GO اللحصول علي رتبة **')
+.then( msg => {
+msg.react(emoji).then( r => {
+  const mis = (reaction, user) => reaction.emoji.name === emoji && user.id === message.author.id;
+  const swe = msg.createReactionCollector(mis, { time: 10000 });
+  swe.on('collect', r => {
+
+let role = message.guild.roles.find("name", "CS:GO");
+message.guild.member(message.author).addRole(role);
+
+});
+});
+});
+}
+});
+
+client.on('message' , async (message) => {
+       if(message.content.startsWith(prefix + "brawlhalla")) {
+  const emoji = "8⃣"
 message.channel.send('**brawlhalla اللحصول علي رتبة **')
 .then( msg => {
 msg.react(emoji).then( r => {
@@ -144,28 +179,11 @@ message.guild.member(message.author).addRole(role);
 }
 });
 
-client.on('message' , async (message) => {
-       if(message.content.startsWith(prefix + "overwatch")) {
-  const emoji = "7⃣"
-message.channel.send('**overwatch اللحصول علي رتبة **')
-.then( msg => {
-msg.react(emoji).then( r => {
-  const mis = (reaction, user) => reaction.emoji.name === emoji && user.id === message.author.id;
-  const swe = msg.createReactionCollector(mis, { time: 10000 });
-  swe.on('collect', r => {
 
-let role = message.guild.roles.find("name", "Overwatch");
-message.guild.member(message.author).addRole(role);
-
-});
-});
-});
-}
-});
 
 client.on('message' , async (message) => {
        if(message.content.startsWith(prefix + "GTA V" )) {
-  const emoji = "8⃣"
+  const emoji = "9⃣"
 message.channel.send('**GTA V اللحصول علي رتبة **')
 .then( msg => {
 msg.react(emoji).then( r => {
@@ -181,6 +199,20 @@ message.guild.member(message.author).addRole(role);
 });
 }
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
