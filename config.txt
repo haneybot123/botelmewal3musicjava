@@ -1,3 +1,6 @@
 token=NDU5MzA2MzM1ODQ3MDU1MzYw.DnG37w.gFPauAKKJW67W1pkHdwjQDmqFtI
 owner=454527533279608852
 prefix=e
+game=Playing َζ͜͡ELMEWAL3
+status=DND  
+stayinchannel=true
